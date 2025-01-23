@@ -193,7 +193,7 @@ public class Main {
         }
     }
 
-    static class RectangleShape extends Shape { // Переименован класс
+    static class RectangleShape extends Shape { 
         private double length;
         private double width;
 
@@ -359,7 +359,7 @@ public class Main {
         }
     }
 
-    static class RectangleCoordinates { // Переименован класс
+    static class RectangleCoordinates { 
         private Point topLeft;
         private Point bottomRight;
 
@@ -632,7 +632,7 @@ public class Main {
         Shape circle = new Circle(5);
         System.out.println("Circle area: " + circle.getArea());
 
-        Shape rectangle = new RectangleShape(4, 6); // Переименовано
+        Shape rectangle = new RectangleShape(4, 6); 
         System.out.println("Rectangle area: " + rectangle.getArea());
 
         Student student1 = new Student("John", "A1", 4.0);
@@ -651,7 +651,7 @@ public class Main {
 
         Point p1 = new Point(0, 0);
         Point p2 = new Point(3, 4);
-        RectangleCoordinates rectangle2 = new RectangleCoordinates(p1, p2); // Переименовано
+        RectangleCoordinates rectangle2 = new RectangleCoordinates(p1, p2); 
         System.out.println("Rectangle area from points: " + rectangle2.getArea());
     }
 }
